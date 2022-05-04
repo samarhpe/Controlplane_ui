@@ -1,0 +1,37 @@
+{
+    "clustername":"Cluster 1",
+    "k8sversion":"v1.20",
+    "master":[
+        {   "id":1,
+            "ip":"172.28.6.1",
+            "hostname":"ap-km-infra-node01"
+        },
+        {   "id":2,
+            "ip":"172.28.6.5",
+            "hostname":"ap-km-infra-node05"
+        }
+       
+    ],
+    "worker":[
+        {
+            "id":1,
+            "ip":"172.28.6.2",
+            "hostname":"ap-km-infra-node02"
+        },
+        {
+            "id":2,
+            "ip":"172.28.6.3",
+            "hostname":"ap-km-infra-node03"
+        },
+        {
+            "id":3,
+            "ip":"172.28.6.4",
+            "hostname":"ap-km-infra-node04"
+        },
+        {
+            "id":4,
+            "ip":"172.28.6.6",
+            "hostname":"ap-km-infra-node06"
+        }
+    ]
+}
