@@ -5,6 +5,8 @@ import React, { useState } from 'react';
 import Generaltab from './pages/Generaltab';
 import Nodesinfo from './pages/Nodesinfo';
 import K3sclustertab from './pages/K3sclustertab';
+import K3sclusterpage from './pages/K3sclusterpage';
+import CRMclusterpage from './pages/CRMclusterpage';
 import Infraclustertab from './pages/Infraclustertab';
 import Homepage from './pages/Homepage';
 import Helptab from './pages/Helptab';
@@ -32,7 +34,8 @@ function App() {
         <Route path="/k3scluster" exact element={<K3sclustertab/>}/>
         <Route path="/support" exact element={<Helptab/>}/>
         <Route path="/podsinfo" exact element={<Podsinfo/>}/>
-        <Route path="/resourcesinfo" exact element={<Resources/>}/>
+        <Route path="/k3sclusterpage" exact element={<K3sclusterpage/>}/>
+        <Route path="/crmclusterpage" exact element={<CRMclusterpage/>}/>
         <Route path="/physicalnodeinfo" exact element={<Physicalnodeinfo/>}/>
         <Route exact path="/getlogs/:namespace/:pod"  element={<Logspage/>}/>
       </Routes>

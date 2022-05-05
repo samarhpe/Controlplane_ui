@@ -42,8 +42,14 @@ export const SidebarData = [
       },
       
       {
-        title: 'k3s cluster',
-        path: '/resourcesinfo',
+        title: 'K3s cluster',
+        path: '/k3sclusterpage',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      {
+        title: 'CRM cluster',
+        path: '/crmclusterpage',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
