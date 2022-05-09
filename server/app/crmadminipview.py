@@ -13,8 +13,10 @@ v1 = client.CoreV1Api()
 v2 = client.AppsV1Api()
 class CRMadminView(APIView):
     def get(self, request):
-        proc = subprocess.Popen(["crm","configure", "show" ,"admin-ip" ], stdout=subprocess.PIPE, shell=True)
-        (out, err) = proc.communicate()
+        #proc = subprocess.Popen(["crm","configure", "show" ,"admin-ip" ], stdout=subprocess.PIPE, shell=True)
+        #(out, err) = proc.communicate()
+        #print(out)
+        out=os.popen("crm configure show admin-ip").read()
         print(out)
         data={}
         data["ip"]=out
