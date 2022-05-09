@@ -3,9 +3,9 @@ from kubernetes import client, config
 import os
 from kubernetes.client.rest import ApiException
 # Configs can be set in Configuration class directly or using helper utility
-k3sfilepath=os.path.join(os.path.dirname(os.path.abspath(__file__)),'minikube_kubeconfig.yaml')
-#config.load_kube_config(config_file=r"./server/app/k3s.yaml")
-config.load_kube_config(config_file=k3sfilepath)
+#comments need to be removed
+#k3sfilepath=os.path.join(os.path.dirname(os.path.abspath(__file__)),'minikube_kubeconfig.yaml')
+#config.load_kube_config(config_file=k3sfilepath)
 v1 = client.CoreV1Api()
 v2 = client.AppsV1Api()
 
