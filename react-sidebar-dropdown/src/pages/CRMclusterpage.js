@@ -3,6 +3,7 @@ import { Box, Grid,Card,CardHeader,CardBody,CardFooter,Text,Button,Header,Headin
 import useStyles from '../styles';
 const CRMclusterpage = () => {
     const classes=useStyles();
+    console.log(window.location.host);
   return (
     <div>
 <Box  >
@@ -14,7 +15,7 @@ const CRMclusterpage = () => {
          
           >
            <Box >
-               <Button onClick={()=>window.open("https://0.0.0.0:7630","_blank")} label="Click here to go to HAWK dashboard"/>
+               <Button onClick={()=>window.open("https://"+window.location.host,"_blank")} label="Click here to go to HAWK dashboard"/>
            </Box>
               </Grid>
 
