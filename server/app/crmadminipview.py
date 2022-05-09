@@ -16,6 +16,6 @@ class CRMadminView(APIView):
         proc = subprocess.Popen(["crm","configure", "show" ,"admin-ip" ], stdout=subprocess.PIPE, shell=True)
         (out, err) = proc.communicate()
         print(out)
-        d={}
-        d["ip"]=out
-        return Response(d)
+        data={}
+        data["ip"]=out
+        return Response(data)
