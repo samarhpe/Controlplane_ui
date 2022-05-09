@@ -16,6 +16,7 @@ class CRMadminView(APIView):
     def get(self, request):
         proc = subprocess.Popen(['crm','configure', 'show' ,'admin-ip' ], stdout=subprocess.PIPE)
         out = proc.communicate()[0]
+        out=str(out)
         pattern = re.compile(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
         ip=pattern.search(out)[0]
         data={}
