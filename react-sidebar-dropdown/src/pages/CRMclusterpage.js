@@ -8,7 +8,7 @@ const CRMclusterpage = () => {
     const classes=useStyles();
     const dispatch=useDispatch();
     useEffect(() => {
-      dispatch(getcrmadminipactioncreator);
+      dispatch(getcrmadminipactioncreator());
     },[]);
     const crm=useSelector((state)=>(state.crminfo.crm));
     
