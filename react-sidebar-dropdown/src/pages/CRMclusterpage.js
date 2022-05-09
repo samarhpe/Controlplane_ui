@@ -1,13 +1,20 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import { Box, Grid,Card,CardHeader,CardBody,CardFooter,Text,Button,Header,Heading } from 'grommet';
 import useStyles from '../styles';
 import { getcrmadminip } from '../api';
+import { useDispatch, useSelector } from 'react-redux';
+import {getcrmadminipactioncreator} from '../actions/Crmadminipaction';
 const CRMclusterpage = () => {
     const classes=useStyles();
-    console.log(window.location.host);
+    const dispatch=useDispatch();
+    useEffect(() => {
+      dispatch(getcrmadminipactioncreator);
+    },[]);
+    const crm=useSelector((state)=>(state.crminfo.crm));
+    
     const hawkdashboard=()=>{
-      const data=getcrmadminip();
-      console.log(data);
+     
+      console.log(crm.ip);
       //window.open("https://"+window.location.host,"_blank")
     }
   return (

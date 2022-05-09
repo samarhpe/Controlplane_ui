@@ -7,6 +7,7 @@ import Servicesinforeducer from './Servicesinforeducer';
 import Deplsinforeducer from './Deplsinforeducer';
 import Logsinforeducer from './Logsinforeducer';
 import Eventsinforeducer from './Eventsinforeducer';
+import Crmadminipreducer from './Crmadminipreducer';
 const Rootreducer=combineReducers({
     podsinfo:Podsinforeducer,
     masterinfo:Masterinforeducer,
@@ -14,6 +15,7 @@ const Rootreducer=combineReducers({
     deplsinfo:Deplsinforeducer,
     servicesinfo:Servicesinforeducer,
     eventsinfo:Eventsinforeducer,
+    crminfo:Crmadminipreducer,
     
 })
 export default Rootreducer;
