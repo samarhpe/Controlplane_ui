@@ -13,7 +13,7 @@ const CRMclusterpage = () => {
     const crm=useSelector((state)=>(state.crminfo.crm));
     
     const hawkdashboard=()=>{
-      dispatch(getcrmadminipactioncreator);
+      //dispatch(getcrmadminipactioncreator);
       console.log(crm);
       //window.open("https://"+window.location.host,"_blank")
     }
