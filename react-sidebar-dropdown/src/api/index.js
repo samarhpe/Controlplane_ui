@@ -16,7 +16,7 @@ export const getnodes = () => axios.get(nodes_url);
 export const getpods=()=>axios.get(pods_url);
 export const getdepls=()=>axios.get(depls_url);
 export const getservices=()=>axios.get(services_url);
-export const getcrmadminip=()=>{axios.get(crmadminurl)};
+export const getcrmadminip=()=>axios.get(crmadminurl);
 export const getlogs=(namespace,pod)=>axios.get(logs_url+namespace+'/'+pod);
 export const getevents=(namespace,depl)=>axios.get(events_url+namespace+'/'+depl);
 export const deletepod=(namespace,pod)=>axios.delete(delete_pod_url+namespace+'/'+pod);
