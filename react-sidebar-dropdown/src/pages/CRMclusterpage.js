@@ -14,7 +14,7 @@ const CRMclusterpage = () => {
          
           >
            <Box >
-               <Button onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Click here to go to HAWK dashboard"/>
+               <Button onClick={()=>window.open("https://0.0.0.0:7630","_blank")} label="Click here to go to HAWK dashboard"/>
            </Box>
               </Grid>
 
