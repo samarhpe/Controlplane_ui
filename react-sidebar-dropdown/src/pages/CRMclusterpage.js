@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import { Box, Grid,Card,CardHeader,CardBody,CardFooter,Text,Button,Header,Heading } from 'grommet';
 import useStyles from '../styles';
-import { getcrmadminip } from '../api';
+
 import { useDispatch, useSelector } from 'react-redux';
 import {getcrmadminipactioncreator} from '../actions/Crmadminipaction';
 const CRMclusterpage = () => {
