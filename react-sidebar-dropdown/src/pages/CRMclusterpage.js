@@ -6,7 +6,7 @@ const CRMclusterpage = () => {
     const classes=useStyles();
     console.log(window.location.host);
     const hawkdashboard=()=>{
-      const{data}=getcrmadminip();
+      const data=getcrmadminip();
       console.log(data);
       //window.open("https://"+window.location.host,"_blank")
     }
