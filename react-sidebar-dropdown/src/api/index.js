@@ -1,15 +1,17 @@
 import axios from 'axios';
-
-const nodes_url = 'http://localhost:8000/nodes';
-const pods_url='http://localhost:8000/getpods/';
-const depls_url='http://localhost:8000/getdepls/';
-const services_url='http://localhost:8000/getservices/';
-const logs_url='http://localhost:8000/getlogs/';
-const delete_pod_url='http://localhost:8000/deletepod/';
-const delete_depl_url='http://localhost:8000/deletedepl/';
-const update_depl_url='http://localhost:8000/updatedepl/';
-const events_url='http://localhost:8000/getevents/';
-const crmadminurl="http://localhost:8000/getcrmadminip/"
+var hostipport=window.location.host;
+var array=hostipport.split(":");
+var ip=array[0];
+const nodes_url = 'http://'+ip+':8000/nodes';
+const pods_url='http://'+ip+':8000/getpods/';
+const depls_url='http://'+ip+':8000/getdepls/';
+const services_url='http://'+ip+':8000/getservices/';
+const logs_url='http://'+ip+':8000/getlogs/';
+const delete_pod_url='http://'+ip+':8000/deletepod/';
+const delete_depl_url='http://'+ip+':8000/deletedepl/';
+const update_depl_url='http://'+ip+':8000/updatedepl/';
+const events_url='http://'+ip+':8000/getevents/';
+const crmadminurl='http://'+ip+':8000/getcrmadminip';
 export const getnodes = () => axios.get(nodes_url);
 export const getpods=()=>axios.get(pods_url);
 export const getdepls=()=>axios.get(depls_url);
