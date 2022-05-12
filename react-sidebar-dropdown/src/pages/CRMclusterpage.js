@@ -15,7 +15,7 @@ const CRMclusterpage = () => {
     const hawkdashboard=()=>{
       //dispatch(getcrmadminipactioncreator);
       //console.log(crm);
-      window.open("https://"+crm.ip+":7630","_blank")
+      window.open("https://"+crm.ip+":7630/login?username=hacluster&password=linux","_blank")
     }
   return (
     <div>
