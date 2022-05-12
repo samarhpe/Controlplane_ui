@@ -28,7 +28,14 @@ const CRMclusterpage = () => {
          
           >
            <Box >
-               <Button onClick={hawkdashboard} label="Click here to go to HAWK dashboard"/>
+             <form action="https://172.30.0.100:7630/login" method="post" target='_blank' id="new_session">
+               <input name="utf8" type="hidden" value="✓"/>
+               <input type="hidden" name="authenticity_token" value="QtuGmk8mUaVqiAGLbca8aWw31PQXeUP8WDT4A370qVdjt+W49XD1y5LADB7ixoG+BKd+Z9maHLqsmQP3fdTQEg=="/>
+              <input type="hidden" name="session[username]" id="session_username" value="hacluster"/>
+              <input type="hidden" name="session[password]" id="session_password" value="hacluster"/>
+               {/*<Button onClick={hawkdashboard} label="Click here to go to HAWK dashboard"/>*/}
+               <input type="submit" name="commit" value="Click here to go to HAWK dashboard"/>
+               </form>
            </Box>
               </Grid>
 
