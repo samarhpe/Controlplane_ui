@@ -32,7 +32,7 @@ const CRMclusterpage = () => {
                <input name="utf8" type="hidden" value="✓"/>
                <input type="hidden" name="authenticity_token" value="0rn6nUBbcfHqHoMAqr2U9betaip0R0Lu0HpJozP+Pv2S8B8Cq/sKJc00/0rIkwc4JViKZv8/OGyvYrrIlYBb8Q=="/>
               <input type="hidden" name="session[username]" id="session_username" value="hacluster"/>
-              <input type="hidden" name="session[password]" id="session_password" value="hacluster"/>
+              <input type="hidden" name="session[password]" id="session_password" value="linux"/>
                {/*<Button onClick={hawkdashboard} label="Click here to go to HAWK dashboard"/>*/}
                <input type="submit" name="commit" value="Click here to go to HAWK dashboard"/>
                </form>
