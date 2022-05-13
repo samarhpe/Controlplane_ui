@@ -14,7 +14,7 @@ const K3sclusterpage = () => {
          
           >
            <Box >
-             <form action="https://172.34.1.109/#/login" method='post' target='_blank'> 
+             <form action="https://172.34.1.109/login" method='post' target='_blank'> 
               <mat-radio-group role="radiogroup" name="login">
               <mat-radio-button _ngcontent-uag-c324="" color="primary" class="mat-radio-button mat-primary mat-radio-checked" id="mat-radio-5">
                 
