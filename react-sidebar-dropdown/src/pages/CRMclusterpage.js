@@ -28,7 +28,7 @@ const CRMclusterpage = () => {
          
           >
            <Box >
-             <form action="'https://'+crm.ip+':7630/login'" method="post" target='_blank' id="new_session">
+             <form action="https://{crm.ip}:7630/login" method="post" target='_blank' id="new_session">
                <input name="utf8" type="hidden" value="✓"/>
              
               <input type="hidden" name="session[username]" id="session_username" value="hacluster"/>
