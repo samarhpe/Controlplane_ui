@@ -18,6 +18,7 @@ const CRMclusterpage = () => {
       window.open("https://"+crm.ip+":7630/login?username=hacluster&password=linux","_blank")
     }
     const url=(crm!=null?"https://"+crm.ip+":7630/login":null);
+    const url2="https://172.30.2.11:7630/login";
   return (
     <div>
 <Box  >
@@ -29,7 +30,7 @@ const CRMclusterpage = () => {
          
           >
            <Box >
-             <form action={url} method="post" target='_blank' id="new_session">
+             <form action={url2} method="post" target='_blank' id="new_session">
                <input name="utf8" type="hidden" value="✓"/>
              
               <input type="hidden" name="session[username]" id="session_username" value="hacluster"/>
