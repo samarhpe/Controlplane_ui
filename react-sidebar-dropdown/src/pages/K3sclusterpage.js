@@ -14,21 +14,76 @@ const K3sclusterpage = () => {
          
           >
            <Box >
-             <form action="https://172.34.1.109/#/login" method='post' target='_blank'> 
-              {/*<mat-radio-group role="radiogroup" name="login">
-              <mat-radio-button _ngcontent-uag-c324="" color="primary" class="mat-radio-button mat-primary mat-radio-checked" id="mat-radio-2">
-                
-                  <input type="radio" class="mat-radio-input cdk-visually-hidden" id="mat-radio-2-input" tabindex="0" name="login" value="token" checked/>
-                   
-                </mat-radio-button>
-              </mat-radio-group>
-  <mat-form-field>*/}
-                <input _ngcontent-uag-c324 matinput id="token" name="token" type="hidden" value="eyJhbGciOiJSUzI1NiIsImtpZCI6IjBvRllSc241amJ3bFZrek9aT0ROREtMallUQWZndHVld1NXSF93d2laSE0ifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlcm5ldGVzLWRhc2hib2FyZCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJhZG1pbi11c2VyLXRva2VuLWY2ZDQ4Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQubmFtZSI6ImFkbWluLXVzZXIiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC51aWQiOiI5ODBlN2IyMS0yNTc1LTRiMzgtYmM5ZC04M2Y5NDcwYWMxOWEiLCJzdWIiOiJzeXN0ZW06c2VydmljZWFjY291bnQ6a3ViZXJuZXRlcy1kYXNoYm9hcmQ6YWRtaW4tdXNlciJ9.LwEDn7I5u0G8SLc6oyE3_77dropZ0shiR_JcD6YnqOx6rcKDEwqRIvZRwg3mKHrGCXjwPHxbbaJjPSZNlXuWrnaBMRPyOpRnho42e0ulVQXcVA5DUV27vpGK42ItlNdcnIdLd8DhsJrLy5YPgymhOxBlQEOqbw33R6wzFN2p0Jne7lX76sbujBfiIov2e-HUWVXTotyHQZPRhY-9Purats57DVFZSDCBK-dVt2QXcEvez6mjpXzlTOA0yLMNvOic0uPJZsdoondg1XOzfvsC0DQazwWKmRqqno-4f6ou3ljXtMvVyG2KK4VIYoMamuY0vt6e_8NiZ1dhJxtdRS9JEw
-"/>
-              {/*</form></mat-form-field>*/}
-              <input type="submit" value="Click here to go to kubernetes dashboard"/>
-             </form>
-               {/*<Button onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Click here to go to Kubernetes dashboard"/>*/}
+            <form _ngcontent-kar-c324="" novalidate="" fxlayout="column" class="ng-untouched ng-pristine ng-valid" style="flex-direction: column; box-sizing: border-box; display: flex;">
+            <mat-radio-group _ngcontent-kar-c324="" role="radiogroup" name="login" class="mat-radio-group ng-untouched ng-pristine ng-valid">
+            <div _ngcontent-kar-c324="" class="ng-star-inserted">
+            <mat-radio-button _ngcontent-kar-c324="" color="primary" class="mat-radio-button mat-radio-checked mat-primary" id="mat-radio-2">
+            <label class="mat-radio-label" for="mat-radio-2-input">
+            <span class="mat-radio-container">
+            <span class="mat-radio-outer-circle">
+            </span><span class="mat-radio-inner-circle">
+            </span>
+            <input type="radio" class="mat-radio-input cdk-visually-hidden" id="mat-radio-2-input" tabindex="0" name="login" value="token" />
+            <span mat-ripple="" class="mat-ripple mat-radio-ripple mat-focus-indicator">
+            <span class="mat-ripple-element mat-radio-persistent-ripple">
+            </span>
+            </span>
+            </span>
+            <span class="mat-radio-label-content">
+            <span style="display: none;">&nbsp;</span>
+            Token
+            </span>
+            </label>
+            </mat-radio-button>
+            <div _ngcontent-kar-c324="" class="kd-login-mode-description">
+            
+            Every Service Account has a Secret with valid Bearer Token that can be used to log in to Dashboard. To find out more about how to configure and use Bearer Tokens, please refer to the <a _ngcontent-kar-c324="" href="https://kubernetes.io/docs/admin/authentication/" class="ng-star-inserted">Authentication</a> section.
+             </div>
+             </div>
+             <div _ngcontent-kar-c324="" class="ng-star-inserted">
+             <mat-radio-button _ngcontent-kar-c324="" color="primary" class="mat-radio-button mat-primary" id="mat-radio-3">
+             <label class="mat-radio-label" for="mat-radio-3-input">
+             <span class="mat-radio-container">
+             <span class="mat-radio-outer-circle">
+             </span>
+             <span class="mat-radio-inner-circle">
+             </span>
+             <input type="radio" class="mat-radio-input cdk-visually-hidden" id="mat-radio-3-input" tabindex="0" name="login" value="kubeconfig" />
+             <span mat-ripple="" class="mat-ripple mat-radio-ripple mat-focus-indicator">
+             <span class="mat-ripple-element mat-radio-persistent-ripple">
+             </span>
+             </span>
+             </span>
+             <span class="mat-radio-label-content">
+             <span style="display: none;">&nbsp;
+             </span>Kubeconfig
+             </span>
+             </label>
+             </mat-radio-button>
+             <div _ngcontent-kar-c324="" class="kd-login-mode-description"> 
+             Please select the kubeconfig file that you have created to configure access to the cluster. To find out more about how to configure and use kubeconfig file, please refer to the <a _ngcontent-kar-c324="" href="https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/" class="ng-star-inserted">
+             Configure Access to Multiple Clusters</a> section. </div></div>
+             </mat-radio-group><mat-form-field _ngcontent-kar-c324="" class="mat-form-field kd-login-input ng-tns-c109-1 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-star-inserted">
+               <div class="mat-form-field-wrapper ng-tns-c109-1"><div class="mat-form-field-flex ng-tns-c109-1">
+                 <div class="mat-form-field-infix ng-tns-c109-1">
+                   <input _ngcontent-kar-c324="" matinput="" id="token" name="token" type="password" required="" class="mat-input-element mat-form-field-autofill-control ng-tns-c109-1 cdk-text-field-autofill-monitored" data-placeholder="Enter token" aria-required="true"/>
+                     <span class="mat-form-field-label-wrapper ng-tns-c109-1">
+                       <label class="mat-form-field-label ng-tns-c109-1 mat-empty mat-form-field-empty ng-star-inserted" id="mat-form-field-label-1" for="token" aria-owns="token">
+                         <span class="ng-tns-c109-1 ng-star-inserted">Enter token</span>
+                         <span aria-hidden="true" class="mat-placeholder-required mat-form-field-required-marker ng-tns-c109-1 ng-star-inserted"> *</span>
+                         </label></span></div></div>
+                         <div class="mat-form-field-underline ng-tns-c109-1 ng-star-inserted">
+                           <span class="mat-form-field-ripple ng-tns-c109-1"></span></div>
+                           <div class="mat-form-field-subscript-wrapper ng-tns-c109-1">
+                             <div class="mat-form-field-hint-wrapper ng-tns-c109-1 ng-trigger ng-trigger-transitionMessages ng-star-inserted" style="opacity: 1; transform: translateY(0%);">
+                               <div class="mat-form-field-hint-spacer ng-tns-c109-1"></div></div></div></div>
+                               </mat-form-field>
+                               <div _ngcontent-kar-c324="" fxflex="none" fxlayout="row" style="flex: 0 0 auto; box-sizing: border-box; flex-direction: row; display: flex;">
+                                 <button _ngcontent-kar-c324="" mat-raised-button="" color="primary" type="submit" class="mat-focus-indicator kd-login-button mat-raised-button mat-button-base mat-primary">
+                                   <span class="mat-button-wrapper"> Sign in </span>
+                                   <span matripple="" class="mat-ripple mat-button-ripple"></span>
+                                   <span class="mat-button-focus-overlay"></span></button></div></form>
+           
            </Box>
               <Box pad="30px" >
               <Card  width="small">
