@@ -24,7 +24,8 @@ const K3sclusterpage = () => {
                     <span mat-ripple="" class="mat-ripple mat-radio-ripple mat-focus-indicator">
                       <span class="mat-ripple-element mat-radio-persistent-ripple"></span>
                       </span></span>
-                      <span class="mat-radio-label-content"><span style="display: none;">&nbsp;</span>Token</span></label>
+                      {/*<span class="mat-radio-label-content"><span style="display: none;">&nbsp;</span>Token</span>*/}
+                      </label>
                       </mat-radio-button>
               </mat-radio-group>
               <mat-form-field>
