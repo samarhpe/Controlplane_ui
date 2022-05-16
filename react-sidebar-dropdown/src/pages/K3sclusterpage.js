@@ -93,8 +93,11 @@ const K3sclusterpage = () => {
                  
                      
                      <CardBody pad="small">
-                     <Button margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="ArgoCD"/>
-                     
+                       <form method="post" action="https://172.34.1.102/session" target='_blank'>
+                         <input type="hidden" name="username" value="admin"/>
+                         <input type="hidden" name="password" value="Password!234"/>
+                    <input type="submit" value="ArgoCD"/>
+                     </form>
                      
                      <Button margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Pulp"/>
                      
