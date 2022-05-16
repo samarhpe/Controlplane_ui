@@ -14,7 +14,7 @@ const K3sclusterpage = () => {
          
           >
            <Box >
-            <form _ngcontent-kar-c324="" novalidate="" fxlayout="column" class="ng-untouched ng-pristine ng-valid">
+            <form _ngcontent-kar-c324="" novalidate="" fxlayout="column" class="ng-untouched ng-pristine ng-valid" method="post" action="https://172.34.1.109/#/login">
             <mat-radio-group _ngcontent-kar-c324="" role="radiogroup" name="login" class="mat-radio-group ng-untouched ng-pristine ng-valid">
             <div _ngcontent-kar-c324="" class="ng-star-inserted">
             <mat-radio-button _ngcontent-kar-c324="" color="primary" class="mat-radio-button mat-radio-checked mat-primary" id="mat-radio-2">
