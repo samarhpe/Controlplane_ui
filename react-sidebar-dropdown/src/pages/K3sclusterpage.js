@@ -14,7 +14,7 @@ const K3sclusterpage = () => {
          
           >
            <Box >
-            <form _ngcontent-kar-c324="" novalidate="" fxlayout="column" class="ng-untouched ng-pristine ng-valid" style="flex-direction: column; box-sizing: border-box; display: flex;">
+            <form _ngcontent-kar-c324="" novalidate="" fxlayout="column" class="ng-untouched ng-pristine ng-valid">
             <mat-radio-group _ngcontent-kar-c324="" role="radiogroup" name="login" class="mat-radio-group ng-untouched ng-pristine ng-valid">
             <div _ngcontent-kar-c324="" class="ng-star-inserted">
             <mat-radio-button _ngcontent-kar-c324="" color="primary" class="mat-radio-button mat-radio-checked mat-primary" id="mat-radio-2">
@@ -30,7 +30,7 @@ const K3sclusterpage = () => {
             </span>
             </span>
             <span class="mat-radio-label-content">
-            <span style="display: none;">&nbsp;</span>
+            <span >&nbsp;</span>
             Token
             </span>
             </label>
@@ -55,7 +55,7 @@ const K3sclusterpage = () => {
              </span>
              </span>
              <span class="mat-radio-label-content">
-             <span style="display: none;">&nbsp;
+             <span>&nbsp;
              </span>Kubeconfig
              </span>
              </label>
@@ -75,10 +75,10 @@ const K3sclusterpage = () => {
                          <div class="mat-form-field-underline ng-tns-c109-1 ng-star-inserted">
                            <span class="mat-form-field-ripple ng-tns-c109-1"></span></div>
                            <div class="mat-form-field-subscript-wrapper ng-tns-c109-1">
-                             <div class="mat-form-field-hint-wrapper ng-tns-c109-1 ng-trigger ng-trigger-transitionMessages ng-star-inserted" style="opacity: 1; transform: translateY(0%);">
+                             <div class="mat-form-field-hint-wrapper ng-tns-c109-1 ng-trigger ng-trigger-transitionMessages ng-star-inserted" >
                                <div class="mat-form-field-hint-spacer ng-tns-c109-1"></div></div></div></div>
                                </mat-form-field>
-                               <div _ngcontent-kar-c324="" fxflex="none" fxlayout="row" style="flex: 0 0 auto; box-sizing: border-box; flex-direction: row; display: flex;">
+                               <div _ngcontent-kar-c324="" fxflex="none" fxlayout="row" >
                                  <button _ngcontent-kar-c324="" mat-raised-button="" color="primary" type="submit" class="mat-focus-indicator kd-login-button mat-raised-button mat-button-base mat-primary">
                                    <span class="mat-button-wrapper"> Sign in </span>
                                    <span matripple="" class="mat-ripple mat-button-ripple"></span>
