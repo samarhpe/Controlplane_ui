@@ -92,7 +92,7 @@ const K3sclusterpage = () => {
                       </CardHeader>
                  
                      
-                     <CardBody pad="small">
+                     <CardBody pad="small" justify="center">
                        <form method="post" action="https://172.34.1.102/api/v1/session" target='_blank'>
                        <input name="utf8" type="hidden" value="✓"/>
                          <input type="hidden" name="username" id="username" value="admin"/>
