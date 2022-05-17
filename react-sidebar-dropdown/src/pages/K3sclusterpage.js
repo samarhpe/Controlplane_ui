@@ -98,10 +98,10 @@ const K3sclusterpage = () => {
                        <input name="utf8" type="hidden" value="✓"/>
                          <input type="hidden" name="username" id="username" value="admin"/>
                          <input type="hidden" name="password" id="password" value="Password!234"/>
-                    <Button type="submit" size="medium" primary label="ArgoCD" />
+                    <Button type="submit" style={{width:'100%'}} primary label="ArgoCD" />
                      </form>
                      </div>
-                     <Button margin="small"  size="medium" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Pulp"/>
+                     <Button margin="small" style={{width:'100%'}} primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Pulp"/>
                      
                     {/* <Button margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Harbor"/>*/}
                     <div width="100%">
@@ -109,11 +109,11 @@ const K3sclusterpage = () => {
                        <input name="utf8" type="hidden" value="✓"/>
                          <input type="hidden" name="login_username" id="login_username" value="admin"/>
                          <input type="hidden" name="login_password" id="login_password" value="Password!234"/>
-                    <Button  size="medium" primary type="submit" label="Harbor"/>
+                    <Button  style={{width:'100%'}} primary type="submit" label="Harbor"/>
                      </form>
                      </div>
                     
-                     <Button  size="medium" margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Prometheus"/>
+                     <Button  style={{width:'100%'}} margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Prometheus"/>
                      </CardBody>
              
             
