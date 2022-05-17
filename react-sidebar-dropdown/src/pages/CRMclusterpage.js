@@ -36,7 +36,7 @@ const CRMclusterpage = () => {
               <input type="hidden" name="session[username]" id="session_username" value="hacluster"/>
               <input type="hidden" name="session[password]" id="session_password" value="linux"/>
               
-               <input type="submit" name="commit" value="Click here to go to HAWK dashboard"/>
+               <Button  type="submit" primary label="Click here to go to HAWK dashboard" name="commit"/>
                </form>
            </Box>
               </Grid>
