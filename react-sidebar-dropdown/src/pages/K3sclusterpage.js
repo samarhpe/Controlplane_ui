@@ -92,7 +92,7 @@ const K3sclusterpage = () => {
                       </CardHeader>
                  
                      
-                     <CardBody pad="small">
+                     <CardBody pad="small"  justify="center">
                        <div width="100%">
                        <form align="center" method="post" action="https://172.34.1.102/api/v1/session" target='_blank'>
                        <input name="utf8" type="hidden" value="✓"/>
@@ -101,8 +101,9 @@ const K3sclusterpage = () => {
                     <Button type="submit" style={{width:'100%'}} primary label="ArgoCD" />
                      </form>
                      </div>
+                     <div width="100%">
                      <Button margin="small" style={{width:'100%'}} primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Pulp"/>
-                     
+                     </div>
                     {/* <Button margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Harbor"/>*/}
                     <div width="100%">
                     <form align="center" method="post" action="https://172.34.1.110/harbor/sign-in?redirect_url=%2Fharbor%2Fprojects" target='_blank'>
@@ -112,8 +113,9 @@ const K3sclusterpage = () => {
                     <Button  style={{width:'100%'}} primary type="submit" label="Harbor"/>
                      </form>
                      </div>
-                    
+                     <div width="100%">
                      <Button  style={{width:'100%'}} margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Prometheus"/>
+                     </div>
                      </CardBody>
              
             
