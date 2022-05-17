@@ -103,7 +103,7 @@ const K3sclusterpage = () => {
                      </div>
                      <div width="100%" >
                        <form align="center">
-                     <Button margin="small" style={{width:'100%'}} primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Pulp"/>
+                     <Button style={{width:'100%'}} primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Pulp"/>
                      </form>
                      </div>
                     {/* <Button margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Harbor"/>*/}
@@ -117,7 +117,7 @@ const K3sclusterpage = () => {
                      </div>
                      <div width="100%">
                      <form align="center">
-                     <Button  style={{width:'100%'}} margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Prometheus"/>
+                     <Button  style={{width:'100%'}}  primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Prometheus"/>
                     </form>
                      </div>
                      </CardBody>
