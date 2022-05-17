@@ -16,9 +16,9 @@ const Homepage = () => {
 
 </Container>
   <Container>
-    <Typography style={{ fontWeight: 600,marginTop:"10px" }}>Dashboard</Typography>
-    <Typography align="center" style={{ fontWeight: 600 }}>Components</Typography>
-    <Grid container style={{marginTop:"20px"}} spacing={2} justify="center">
+    <Typography style={{ fontWeight: 600,marginTop:"10px" }}>Home</Typography>
+   {/* <Typography align="center" style={{ fontWeight: 600 }}>Components</Typography>*/}
+    {/*<Grid container style={{marginTop:"20px"}} spacing={2} justify="center">
     <Grid key="ArgoCD"item xs={12} sm={6} md={2}>
     <Card >
                   <CardContent>
@@ -188,7 +188,7 @@ items={[
                   </CardContent>
     </Card>
     </Grid>
-    </Grid>
+    </Grid>*/}
 
     
   </Container>

@@ -93,7 +93,7 @@ const Sidebar = ({showrightSidebar,setshowrightSidebar}) => {
             {/*<FaIcons.FaBars color='#01a982' onClick={showSidebar} />*/}
           {/*<Hpe color='#01A982' className={classes.hpeicon} onClick={showSidebar} />*/}
             <Button className={classes.hpeicon} onClick={showSidebar}>
-              <div style={{display:'flex'}}><img src={hpegrommetimg} /><p style={{fontSize:'20px'}}>HPE Control Plane</p></div>
+              <div style={{display:'flex'}}><img src={hpegrommetimg} /><p style={{fontSize:'20px'}}>Menu</p></div>
               </Button>
             
             </NavIcon>
