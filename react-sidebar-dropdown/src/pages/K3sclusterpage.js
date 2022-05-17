@@ -97,7 +97,7 @@ const K3sclusterpage = () => {
                        <input name="utf8" type="hidden" value="✓"/>
                          <input type="hidden" name="username" id="username" value="admin"/>
                          <input type="hidden" name="password" id="password" value="Password!234"/>
-                    <input type="submit" value="ArgoCD"/>
+                    <Button type="submit" primary label="ArgoCD" />
                      </form>
                      
                      <Button margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Pulp"/>
@@ -107,7 +107,7 @@ const K3sclusterpage = () => {
                        <input name="utf8" type="hidden" value="✓"/>
                          <input type="hidden" name="login_username" id="login_username" value="admin"/>
                          <input type="hidden" name="login_password" id="login_password" value="Password!234"/>
-                    <input type="submit" value="harbor"/>
+                    <Button primary type="submit" label="harbor"/>
                      </form>
                     
                      <Button margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Prometheus"/>
