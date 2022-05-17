@@ -93,7 +93,7 @@ const K3sclusterpage = () => {
                  
                      
                      <CardBody pad="small"  justify="center">
-                       <div width="100%" style={{marginTop:"3px"}}>
+                       <div width="100%" style={{marginTop:"5px"}}>
                        <form align="center" method="post" action="https://172.34.1.102/api/v1/session" target='_blank'>
                        <input name="utf8" type="hidden" value="✓"/>
                          <input type="hidden" name="username" id="username" value="admin"/>
@@ -101,13 +101,13 @@ const K3sclusterpage = () => {
                     <Button type="submit" style={{width:'100%'}} primary label="ArgoCD" />
                      </form>
                      </div>
-                     <div width="100%" style={{marginTop:"3px"}} >
+                     <div width="100%" style={{marginTop:"5px"}} >
                        <form align="center">
                      <Button style={{width:'100%'}} primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Pulp"/>
                      </form>
                      </div>
                     {/* <Button margin="small" primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Harbor"/>*/}
-                    <div width="100%" style={{marginTop:"3px"}}>
+                    <div width="100%" style={{marginTop:"5px"}}>
                     <form align="center" method="post" action="https://172.34.1.110/harbor/sign-in?redirect_url=%2Fharbor%2Fprojects" target='_blank'>
                        <input name="utf8" type="hidden" value="✓"/>
                          <input type="hidden" name="login_username" id="login_username" value="admin"/>
@@ -115,7 +115,7 @@ const K3sclusterpage = () => {
                     <Button  style={{width:'100%'}} primary type="submit" label="Harbor"/>
                      </form>
                      </div>
-                     <div width="100%" style={{marginTop:"3px"}}>
+                     <div width="100%" style={{marginTop:"5px"}}>
                      <form align="center">
                      <Button  style={{width:'100%'}}  primary onClick={()=>window.open("https://argo-cd.readthedocs.io/en/stable/","_blank")} label="Prometheus"/>
                     </form>
