@@ -1,7 +1,7 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import React, { useState } from 'react';
+import React, { useState,useContext } from 'react';
 import Generaltab from './pages/Generaltab';
 import Nodesinfo from './pages/Nodesinfo';
 import K3sclustertab from './pages/K3sclustertab';
@@ -19,6 +19,7 @@ import { Typography } from '@material-ui/core';
 import Resources from './pages/Resources';
 function App() {
   const [showrightSidebar, setshowrightSidebar] = useState(false);
+  const size=useContext(ResponsiveContext);
   return (
     <Grommet full>
      
