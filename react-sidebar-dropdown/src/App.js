@@ -19,10 +19,10 @@ import { Typography } from '@material-ui/core';
 import Resources from './pages/Resources';
 function App() {
   const [showrightSidebar, setshowrightSidebar] = useState(false);
-  const size=useContext(ResponsiveContext);
+  
   return (
-    <Grommet full>
-     
+    <Grommet full>  
+      
     <Router>
       <Sidebar showrightSidebar={showrightSidebar} setshowrightSidebar={setshowrightSidebar} />
       <Box direction='row' height='100%' flex overflow={{ horizontal: 'hidden' }}>
@@ -64,6 +64,7 @@ function App() {
      
     </Router>
    
+    
     </Grommet>
    
   );

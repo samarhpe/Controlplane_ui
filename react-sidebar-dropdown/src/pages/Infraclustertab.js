@@ -1,5 +1,6 @@
-import React,{useState} from 'react';
+import React,{useState,useContext} from 'react';
 import {Typography,AppBar,Button,Card,CardActions,CardContent,CardMedia,CssBaseline,Grid,Toolbar,Container, CardHeader,ListItem,List,ListItemText} from '@material-ui/core';
+import {ResponsiveContext} from 'grommet';
 import useStyles from '../styles';
 import data from '../data/data.json';
 import '../styles/index.css';
@@ -12,6 +13,8 @@ import { Popover } from '@mui/material';
 //import HostservicesAccordianComponent from '../components/HostservicesAccordianComponent';
 const Clustertab = () => {
     const classes=useStyles();
+   // const size=useContext(ResponsiveContext);
+      // console.log(size);
     const [PDNSanchorEl,PDNSsetAnchorEl] = useState(null);
 
     const PDNShandleClick = (event) => {
